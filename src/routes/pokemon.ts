@@ -47,7 +47,7 @@ router.get(
       return;
     }
 
-    res.status(501).json(pokemon);
+    res.status(200).json(pokemon);
     return;
   }
 );
